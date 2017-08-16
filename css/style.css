@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
+
+
+body {
+	margin: 0 auto;
+	padding: 50px 30px;
+	background-color: #fdde7e;
+	font-family: 'Saira Condensed', sans-serif;
+	color: #333333;
+}
+
+.cp-flex{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.cp-flex__card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFF;
+	border-radius: 5px;
+	width: 360px;
+	height: auto;
+	-webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+			box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.cp-flex__card--price{
+	font-size: 70px;
+	letter-spacing: 0.025em;
+	line-height: 60px;
+	color: #02995b;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.cp-flex__card--title{
+	margin: 35px 0 0 0;
+	line-height: 50px;
+	font-size: 56px;
+}
+
+.cp-flex__card--text{
+	margin: 35px 0;
+	font-size: 20px;
+	letter-spacing: 0.025em;
+	width: 50%;
+	text-align: center;
+}
+
+.cp-flex__card-gold--price{
+	font-size: 70px;
+	letter-spacing: 0.025em;
+	line-height: 60px;
+	color: #02995b;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.cp-flex__card-gold--title{
+	margin: 40px 0 0 0;
+	line-height: 50px;
+	font-size: 56px;
+}
+
